@@ -6,7 +6,7 @@
 /*   By: jow <jow@student.42kl.edu.my>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 23:13:15 by jow               #+#    #+#             */
-/*   Updated: 2025/10/16 01:03:53 by jow              ###   ########.fr       */
+/*   Updated: 2025/10/16 01:14:44 by jow              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ class HumanB {
 		Weapon *weaponB;
 	public:
 		HumanB(std::string name);
+		~HumanB();
 		void attack(void);
 		void setWeapon(Weapon &weaponB);
 		std::string getName(void);

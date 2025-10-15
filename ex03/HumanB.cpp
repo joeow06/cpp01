@@ -6,7 +6,7 @@
 /*   By: jow <jow@student.42kl.edu.my>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 23:13:13 by jow               #+#    #+#             */
-/*   Updated: 2025/10/16 01:08:38 by jow              ###   ########.fr       */
+/*   Updated: 2025/10/16 01:14:55 by jow              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ HumanB::HumanB(std::string name)
 {
 	this->name = name;
 }
+
+HumanB::~HumanB() {}
 
 void HumanB::setWeapon(Weapon &weaponB)
 {
