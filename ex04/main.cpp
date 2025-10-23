@@ -45,7 +45,7 @@ int main(int ac, char **av)
 	}	
 	outFileName = av[1];
 	outFileName.append(".replace");
-	outFile.open(outFileName);
+	outFile.open(outFileName.c_str());
 	while (getline(inFile, line))
 	{
 		if (outFile.is_open())
