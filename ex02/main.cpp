@@ -33,5 +33,11 @@ int main(void)
 /*
 * In C, we have pass by value 
 * and pass by pointers (almost same as pass by reference in C++)
-* In C++, we have pass by reference
+* In C++, we have pass by reference, pass by value, pass by pointer
+* 
+* Pass by reference better than value if object passed is very big, so that
+* we dont create a copy of that big object (waste memory).
+* 
+* Pass by pointer is used when the argument passed can be null, else just
+* use pass by reference
 */
